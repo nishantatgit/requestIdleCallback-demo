@@ -1,0 +1,26 @@
+{
+  "name": "parallex-effect-using-background-attachment",
+  "version": "1.0.0",
+  "description": "parallex-effect-using-background-attachment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --configuration webpack.config.js --mode development"
+  },
+  "keywords": [
+    "css",
+    "parallex"
+  ],
+  "author": "Nishant",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.11.5",
+    "@babel/preset-env": "^7.11.5",
+    "babel-loader": "^8.1.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}

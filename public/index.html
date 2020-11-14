@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css"></link>
+  </head>
+  <body>
+    <div class="loader">
+    </div>
+    <div class="loader loader-one"></div>
+    <div class="btn-group">
+      <button class="btn js-btn-add-interval">Invoke long executing js code</button>
+      <button class="btn js-btn-add-interval-sliced">Invoke long executing js code with requestIdleCallback</button>
+    </div>
+    <script type="application/javascript" src="bundle.js"></script>
+  </body>
+</html>
